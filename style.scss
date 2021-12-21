@@ -1,0 +1,55 @@
+$color-letra: white; /* var. con color letra */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+html{
+    font-family: sans-serif;
+    font-size: 1rem;
+
+    @import "./imports_scss/header";
+    
+    main{
+        background: black;
+        color: $color-letra;
+        background-image: linear-gradient(to bottom,black,#232b2b);
+        .index_titulo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            font-style: italic;
+            padding: 25px 0px;
+            font-family: 'Bebas Neue', cursive;
+            letter-spacing: 5px;
+        }
+        .index_res{
+            display: flex;
+            /*justify-content: center;
+            align-items: center; */
+            text-align: center;
+            .index_res_1{
+                /*display: flex;
+                justify-content: center;
+                align-items: center; */
+                padding: 10px 30px;
+            }
+            .index_res_2{
+                /* display: flex;
+                justify-content: center;
+                align-items: center; */
+                padding: 10px 30px;
+            }
+            p:hover{
+                color:gold;
+            }
+        }
+
+    }
+
+    @import "./imports_scss/footer";
+}   

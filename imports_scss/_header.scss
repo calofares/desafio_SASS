@@ -1,0 +1,60 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 0px;
+    position: sticky;
+    top: 0;
+    letter-spacing: 0.15rem;
+    height: 100px;
+    z-index: 2;
+    .header_titulo{
+        display: flex;
+        align-items: center;
+        background-image: linear-gradient(to bottom,grey,white);
+        background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        font-family: 'Bebas Neue', cursive;
+        font-size: 3.5rem;
+        letter-spacing: 12.5px;
+        padding-left: 15px;
+    }
+    nav{
+        display: flex;
+        align-content: center;
+        padding-right: 15px;
+        .menu{
+            display:flex;
+            text-align: center;
+            flex-wrap:nowrap;  
+            justify-content: space-around;
+            align-items: center;
+            justify-content: center;
+            li{
+                display: flex;
+                padding: 0px 5px;
+                align-items: center;
+                align-content: center;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 1.25rem;
+                }    
+                a:hover{ /* no funciona si no lo pongo a la misma altura que "a" */
+                    color:grey;
+                    font-size: 1.5rem;
+                    transition: 1s;
+                    background-image: linear-gradient(to bottom,gold,white);
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent; 
+                }
+                
+        
+            }
+        }
+    }
+}

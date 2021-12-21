@@ -1,0 +1,197 @@
+/* var. con color letra */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+html .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  letter-spacing: 0.15rem;
+  height: 100px;
+  z-index: 2;
+}
+
+html .header .header_titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(white));
+  background-image: linear-gradient(to bottom, grey, white);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3.5rem;
+  letter-spacing: 12.5px;
+  padding-left: 15px;
+}
+
+html .header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-right: 15px;
+}
+
+html .header nav .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html .header nav .menu li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+html .header nav .menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+}
+
+html .header nav .menu li a:hover {
+  /* no funciona si no lo pongo a la misma altura que "a" */
+  color: grey;
+  font-size: 1.5rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(gold), to(white));
+  background-image: linear-gradient(to bottom, gold, white);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+html main {
+  background: black;
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(#232b2b));
+  background-image: linear-gradient(to bottom, black, #232b2b);
+}
+
+html main .index_titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-style: italic;
+  padding: 25px 0px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+}
+
+html main .index_res {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*justify-content: center;
+            align-items: center; */
+  text-align: center;
+}
+
+html main .index_res .index_res_1 {
+  /*display: flex;
+                justify-content: center;
+                align-items: center; */
+  padding: 10px 30px;
+}
+
+html main .index_res .index_res_2 {
+  /* display: flex;
+                justify-content: center;
+                align-items: center; */
+  padding: 10px 30px;
+}
+
+html main .index_res p:hover {
+  color: gold;
+}
+
+html .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #232b2b;
+  padding: 20px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html .footer div {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html .footer div a {
+  text-decoration: none;
+}
+
+html .footer .footer_media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
